@@ -1,4 +1,67 @@
 html, body {
     margin: 0;
     padding: 0;
+    
+}
+
+.container{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: #1F2937;
+    color: whitesmoke;
+    height: 100%;
+}
+
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.input-color{
+    border: .5px solid #D1D5DB;
+    border-radius: 0%;
+    height: 35px;
+}
+
+.mode-options{
+    background-color: #1F293A;
+    color: #D5D4D8;
+    padding: 0.5em;
+    width: 50%;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #3D4B60;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    padding: 0 1em;
+}
+
+
+.color-scheme-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    flex: 1 ;
+    height: 60vh;
+    margin: 0;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column h4{
+    margin: 0;
 }

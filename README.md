@@ -19,3 +19,10 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+[Figma file](https://www.figma.com/file/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?type=design&node-id=2-1155&mode=design&t=vtyYWUelXUlyLujw-0)
+
+[Colors Api](https://www.thecolorapi.com/docs#schemes)
+
+#### Requirements
+(![Alt text](image.png))

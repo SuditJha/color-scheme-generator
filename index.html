@@ -1,9 +1,38 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>index.html</h1>
+        <section class="container">
+            <!-- Form -->
+        <form id="form" class="form">
+            <input 
+            type="color"
+            name="color"
+            id="color"
+            class="input-color"
+            >
+            <!-- Options  -->
+            <select class="mode-options" id="mode">
+                <option>Monochrome</option>
+                <option>Monochrome-Dark</option>
+                <option>Monochrome-Light</option>
+                <option>Analogic</option>
+                <option>Complement</option>
+                <option>Analogic-Complement</option>
+                <option>Triad</option>
+                <option>Quad</option>
+            </select>
+            <!--  -->
+            <button type="submit">Get Color Scheme</button>
+
+        </form>
+        <!-- Color Scheme container -->
+        <div class="color-scheme-container" id="color-scheme-container"></div>
+
+        </section>
         <script src="index.js"></script>
     </body>
 </html>
